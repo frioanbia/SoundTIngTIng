@@ -13,8 +13,9 @@ class ViewController: UIViewController {
     var player: AVAudioPlayer!
     
     override func viewDidLoad() {
-        super.viewDidLoad()    }
-
+        super.viewDidLoad()
+    }
+    
     @IBAction func keyPressed(_ sender: UIButton) {
         playSound(soundName: sender.currentTitle!)
         sender.alpha = 0.5
