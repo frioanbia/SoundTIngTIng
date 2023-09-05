@@ -16,20 +16,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="PyD-xa-TVE">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="PyD-xa-TVE">
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cha-dY-Amw" userLabel="C View">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="108.33333333333333"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="104"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vm-vH-F2j">
-                                                <rect key="frame" x="5" y="0.0" width="383" height="108.33333333333333"/>
-                                                <color key="backgroundColor" red="1" green="0.14162466109999999" blue="0.16598421899999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <rect key="frame" x="5" y="0.0" width="383" height="104"/>
+                                                <color key="backgroundColor" systemColor="systemRedColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="C">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Vf-aB-XU2"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -41,16 +44,19 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CCt-bV-V9b" userLabel="D View">
-                                        <rect key="frame" x="0.0" y="108.33333333333337" width="393" height="108.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="109" width="393" height="104.33333333333331"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X1Z-5w-QD6">
-                                                <rect key="frame" x="10" y="0.0" width="373" height="108.66666666666667"/>
+                                                <rect key="frame" x="10" y="0.0" width="373" height="104.33333333333333"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="D">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oMX-UH-wec"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -62,16 +68,19 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ygX-pB-nB4" userLabel="E View">
-                                        <rect key="frame" x="0.0" y="217" width="393" height="108.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="218.33333333333331" width="393" height="104"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJS-0p-xdL">
-                                                <rect key="frame" x="15" y="0.0" width="363" height="108.33333333333333"/>
+                                                <rect key="frame" x="15" y="0.0" width="363" height="104"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="E">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PS3-AA-7zJ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -83,16 +92,19 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O2l-1q-Zn0" userLabel="F View">
-                                        <rect key="frame" x="0.0" y="325.33333333333331" width="393" height="108.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="327.33333333333331" width="393" height="104.33333333333331"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5Q-9r-Tdl">
-                                                <rect key="frame" x="25" y="0.0" width="343" height="108.33333333333333"/>
+                                                <rect key="frame" x="25" y="0.0" width="343" height="104.33333333333333"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="F">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f8Y-OB-gSa"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -104,16 +116,19 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="luL-gc-cPS" userLabel="G View">
-                                        <rect key="frame" x="0.0" y="433.66666666666669" width="393" height="108.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="436.66666666666669" width="393" height="104.00000000000006"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cc7-fB-tss">
-                                                <rect key="frame" x="30" y="0.0" width="333" height="108.33333333333333"/>
+                                                <rect key="frame" x="30" y="0.0" width="333" height="104"/>
                                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="G">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kwt-Kz-VJ2"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -125,16 +140,19 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b1B-sf-a4i" userLabel="A View">
-                                        <rect key="frame" x="0.0" y="542" width="393" height="108.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="545.66666666666663" width="393" height="104.33333333333337"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4x-FX-9FU">
-                                                <rect key="frame" x="35" y="0.0" width="323" height="108.66666666666667"/>
+                                                <rect key="frame" x="35" y="0.0" width="323" height="104.33333333333333"/>
                                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="A">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r0G-BI-Z1w"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -146,16 +164,19 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7gS-nv-PcA" userLabel="B View">
-                                        <rect key="frame" x="0.0" y="650.66666666666663" width="393" height="108.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="655" width="393" height="104"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZC-z4-p1b">
-                                                <rect key="frame" x="40" y="0.0" width="313" height="108.33333333333333"/>
+                                                <rect key="frame" x="40" y="0.0" width="313" height="104"/>
                                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="B">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="03y-5L-lh4"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -202,6 +223,9 @@
         </systemColor>
         <systemColor name="systemPurpleColor">
             <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
