@@ -13,9 +13,7 @@ class ViewController: UIViewController {
     var player: AVAudioPlayer!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+        super.viewDidLoad()    }
 
     @IBAction func keyPressed(_ sender: UIButton) {
         playSound(soundName: sender.currentTitle!)
